@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Edu+AU+VIC+WA+NT+Pre:wght@700&family=Ga+Maamli&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+            #body{
+                font-family: "Sour Gummy", serif;
+            }
+            #introvideo{
+                right: 0;
+                bottom: 0;
+                z-index: -1;
+                position: absolute;
+            }
+            #div1{
+                margin: 20px;
+                font-size: 100px;
+                text-align: center;
+                width: 400px;
+                height: 200px;
+                border: 4px solid rgb(79, 75, 75);
+                border-top-right-radius:100px ;
+                border-bottom-right-radius: 100px;
+                border-top-left-radius: 20px;
+                border-bottom-left-radius: 20px;
+                transition-duration: 0.5s;
+                animation: background-image;
+                background-color: rgba(59, 4, 47, 0.377);
+                backdrop-filter: blur(10px);
+            }
+            #div1:hover{
+                width: 650px;
+                height: 250px;
+                background-image: url(anh-gojo_24.jpeg);
+                background-size: cover;
+            }
+            #div2{
+                margin: 20px;
+                font-size: 100px;
+                text-align: center;
+                width: 400px;
+                height: 200px;
+                border: 4px solid rgb(79, 75, 75);
+                border-top-right-radius:100px ;
+                border-bottom-right-radius: 100px;
+                border-top-left-radius: 20px;
+                border-bottom-left-radius: 20px;
+                transition-duration: 0.5s;
+                animation: background-image;
+                background-color: rgba(184, 20, 118, 0.318);
+                backdrop-filter: blur(10px);
+            }
+            #div2:hover{
+                width: 650px;
+                height: 250px;
+                background-image: url(Jujutsu-Kaisen-Yuji-Itadori-pink-hair-undercut-hairstyle-uniform-smiling-2272328-wallhere.com.jpg);
+                background-size: cover;
+            }
+            #div3{
+                margin: 20px;
+                font-size: 100px;
+                text-align: center;
+                width: 400px;
+                height: 200px;
+                border: 4px solid rgb(79, 75, 75);
+                border-top-right-radius:100px ;
+                border-bottom-right-radius: 100px;
+                border-top-left-radius: 20px;
+                border-bottom-left-radius: 20px;
+                transition-duration: 0.5s;
+                animation: background-image;
+                background-color: rgba(248, 5, 5, 0.33);
+                backdrop-filter: blur(10px);
+            }
+            #div3:hover{
+                width: 650px;
+                height: 250px;
+                background-image: url(anh-sukuna_5.jpeg);
+                background-size: cover;
+            }
+        </style>
+
+    </head>
+    <body id="body">
+        <video autoplay loop muted plays-inline id="introvideo">
+            <source src="intro.mp4" type="video/mp4">
+        </video>
+        <a href="gojo.html" ><div id="div1">gojo</div></a>
+       <a href="itadori.html"><div id="div2">itadori</div></a> 
+       <a href="sukuna.html"><div id="div3">sukuna</div></a> 
+
+    </body>
+
+</html>
